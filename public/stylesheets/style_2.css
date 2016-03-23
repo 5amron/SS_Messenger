@@ -1,0 +1,158 @@
+@font-face {
+    font-family:'Aghasem2';
+    src:url('/stylesheets/Nouvelle_Vague_Black.ttf');
+    font-style:normal;
+    font-weight:normal;
+}
+body{
+	background: url("/images/chat_backgroung.jpg") no-repeat center fixed;
+    background-size:cover;
+    background-color: #000;
+/*	background: url("/images/signup_page_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    overflow-x: hidden; 
+    overflow-y: hidden; 
+}
+
+
+#content{
+	left: 10;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	min-width: 350px;
+	max-width: 1500px;
+	width: 98%;
+	height: 80%;
+	min-height: 280px;
+	max-height: 700px;
+	overflow: scroll;
+	color: #fff;
+	overflow-x: hidden; 
+
+
+}
+#typing_thing{
+	margin-left: 10%;
+	margin-left: 10%;
+	min-width: 350px;
+	max-width: 500px;
+	position: absolute;
+	bottom: 0;
+	height: 70px;
+
+}
+#logout{
+	color: #fff;
+	position: absolute;
+	float: right;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 3px;
+	margin: 4px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+#typing{
+	border-width: 0px;
+	border-radius: 15px;
+	font-family:tahoma; 
+	font-size: 20px;
+	padding:15px;
+	width: 70%;
+	min-width: 250px;
+	max-width: 400px;
+}
+
+#sendButton{
+	padding: 3px;
+	padding-left: 5px;
+	font-size: 20px;
+	border-width: 0px;
+	color:  #fff;
+	border-radius: 80px;
+	width: 55px;
+	height: 55px;
+	background-color: #005A78;
+}
+
+/*	text-align: center;
+	font-weight: bold;
+	background-color: #668EE8;
+	border-radius: 1px;
+	border-width: 0px;
+	display: inline;
+	width: 65px;
+	height: 35px;*/
+
+
+#content p{
+	margin-left: 10px;
+/*	background-color: #66FDFF;*/
+	padding: 10px;
+	border-radius: 10px;
+	font-family: tahoma;
+	font-size: 13px;
+	color: #fff;
+	min-width: 50px; 
+
+}
+.arrow-left{
+	margin-top: 10px;
+	position: absolute;
+	opacity: 1;
+	width: 0;
+	height: 0;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-right: 10px solid #66FDFF;
+}
+.m{
+
+}
+/*00FF88 green*/
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+width: 10px;
+height: 25px;
+
+}
+
+::-webkit-scrollbar-track:vertical {
+border: 1px solid #005A78;
+border-radius: 12px;
+border-width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+background: #005A78;  
+border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #fff;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

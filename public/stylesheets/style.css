@@ -1,0 +1,125 @@
+@font-face {
+    font-family:'Aghasem';
+    src:url('/stylesheets/fontawesome-selected.ttf');
+    font-style:normal;
+    font-weight:normal;
+}
+
+@font-face {
+    font-family:'Aghasem2';
+    src:url('/stylesheets/Nouvelle_Vague_Black.ttf');
+    font-style:normal;
+    font-weight:normal;
+}
+@font-face {
+    font-family:'Aghasem3';
+    src:url('/stylesheets/Comix_Loud.ttf');
+    font-style:normal;
+    font-weight:normal;
+}
+
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #000;
+
+}
+
+h1{
+	color: #fff;
+}
+
+a {
+	color: #fff;
+}
+p{
+	color:#fff;
+}
+
+#login_paragraph{
+	position: absolute;
+	z-index: 2;
+	top: 380px;
+	left: 100px;
+}
+
+#app_title{
+	font-family:Aghasem3;
+  font-size: 28px;
+}
+
+#sign_up_link{
+	text-decoration: none;
+	color: #8EC9FF;
+
+}
+
+
+/*==============forms=======================================*/
+#user_data_login{
+	position: absolute;
+	z-index: 2;
+	top: 400px;
+	left: 600px;
+}
+
+#h11{
+	font-family: Aghasem;
+}
+
+
+#inside_login{
+	
+}
+#input_1::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #edeaed;
+}
+#input_1:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #edeaed;
+   opacity:  1;
+}
+#input_1::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #edeaed;
+   opacity:  1;
+}
+#input_1:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #edeaed;
+}
+#input_1:placeholder-shown { /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+  color:    #edeaed;
+}
+
+#input_2::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #edeaed;
+}
+#input_2:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #edeaed;
+   opacity:  1;
+}
+#input_2::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #edeaed;
+   opacity:  1;
+}
+#input_2:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #edeaed;
+}
+#input_2:placeholder-shown { /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+  color:    #edeaed;
+}
+#submit_button_1{
+	color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    border-radius: 1px;
+    border-width:1px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left:20px;
+    padding-right:20px;
+    margin: 7px;
+    margin-left: 50px;
+
+}
+
+

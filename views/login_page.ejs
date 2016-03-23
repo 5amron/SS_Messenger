@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link href="/stylesheets/style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="/javascripts/form_javascript.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+
+  </head>
+  <body>
+
+
+    <div style='position:absolute;z-index:-1;left:0;top:0;min-width:980px;width:100%;max-width:1050px;min-height:360px;height:68%;max-height:390px;z-index:-1;display: block'>
+        <img src='/images/home_page_image.jpg' style='width:100%;height:100%' alt='[]' />
+    </div>
+
+
+    <div id="login_paragraph">
+        <p id="app_title">SS Messenger</p>
+        <p>didn't sign up yet?</p>
+        <p ><a href="/signup" id="sign_up_link">free sign up &#187;</a></p>
+        <p>about me.......</p>
+    </div>
+<!-- http://127.0.0.1:3000/process_post -->
+
+
+    <div id="user_data_login">
+        <h1 id="h11"><%= title %></h1>
+    	<section id="inside_login">
+        <form action="" method="POST">
+            <ul> 
+                <li>
+                    <!-- <input id="input_1" type="text" placeholder="Username" /> -->
+                    <input name="username" id="username" type="text" placeholder="Username" style="border-style:solid; border-radius:3px; font-size:14px; background-color:#36617a; border-color:#36617a; color:#edeaed; border-width:0px; padding:11px; margin:3px ">
+                </li>
+                <li>
+                    <!-- <input id="input_2" type="password" placeholder="Password" /> -->
+                    <input name="password" id="password" type="password" placeholder="Password" style="border-style:solid; border-radius:3px; font-size:14px; background-color:#36617a; border-color:#36617a; color:#edeaed; border-width:0px; padding:11px; margin:3px">
+                </li>
+                <li>
+                    <input id="submit_button_1" type="submit" value="Login"/>
+                </li>
+            </ul>
+        </form>
+        </section>
+    </div>
+
+      <script type="text/javascript">
+          // if(isAuthenticated){
+          //     res.redirect('/chatting');
+          //   }
+      </script> 
+
+  </body>
+  <style type="text/css">
+
+  </style>
+</html>

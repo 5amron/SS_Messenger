@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link href="/stylesheets/style_2.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="/javascripts/main_javascript.js"></script>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="/javascripts/jquery-1.11.3.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+
+  </head>
+  <body>
+    
+    <div id="content">
+      
+      <p></p>
+
+    </div>
+    <div id="typing_thing">
+      <input name="typing" id="typing" type="area" placeholder="type your messages here...">
+      <input name="sendButton" id="sendButton" type="submit" value="&#10093;&#10093;">
+      <a id="logout" href="/logout">logout</a>
+    </div>
+    <script>
+      var myVar = <%- JSON.stringify(username_new) %>;
+      var myVar2 = <%- JSON.stringify(port_new) %>;
+      //alert(myVar);
+      //$("content").animate({ scrollTop: $(document).height() }, "slow");
+      $("#content").animate({ scrollTop: $('#content')[0].scrollHeight}, 1000);
+    </script>
+
+
+  </body>
+
+</html>
