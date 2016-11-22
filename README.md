@@ -1,4 +1,4 @@
-# ss_messenger
+# ss-messenger
 
 this is a chat application that is based on node.js web applications. we used node passport module 
 to authenticate users in login page and sotre sessions in mongoDB. in this case MongoLab helped us 
