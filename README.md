@@ -10,4 +10,4 @@ and it's not appropriate for mobile view yet.
 maybe later it will be more developed.
 
 samanSadeghyan
-samronsadeghyan@gmail.com
+s.sadeghy325@gmail.com
