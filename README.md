@@ -9,5 +9,4 @@ by socket.io module it connects user on every client side and it has only public
 and it's not appropriate for mobile view yet.
 maybe later it will be more developed.
 
-samanSadeghyan
-s.sadeghy325@gmail.com
+
